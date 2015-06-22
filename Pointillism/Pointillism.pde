@@ -10,21 +10,17 @@
 // The next line is needed if running in JavaScript Mode with Processing.js
 /* @pjs preload="moonwalk.jpg"; */ 
 
-
 PImage img;
 int smallPoint, largePoint;
 
 void setup() {
-  img = loadImage("The Fourth Joke.jpg");
-  size(img.width, img.height);
-   smallPoint = 4;
+  size(640, 360);
+  img = loadImage("moonwalk.jpg");
+  smallPoint = 4;
   largePoint = 40;
   imageMode(CENTER);
   noStroke();
   background(255);
-
-  
-  
 }
 
 void draw() { 
